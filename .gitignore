@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local notes and scratch
+scratch/
+*.local.md
+
+# Build output for any site generator we might add later
+_site/
+.jekyll-cache/
+node_modules/
