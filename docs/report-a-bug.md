@@ -10,6 +10,8 @@ Have a quick look at [Troubleshooting](troubleshooting.md) first. A lot of "it d
 
 The app keeps an on-device log of what happens during scans and connections, and it can export that log as a plain text file you attach to your report.
 
+![The Diagnostics screen with the Share Log button](media/diagnostics-share-log.png)
+
 **On Android:**
 
 1. Open the app and go to **Settings**.

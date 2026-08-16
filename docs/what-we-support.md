@@ -24,9 +24,17 @@ The apps are built around a "Rescue" flow: point the app at a toy, and it works 
 
 These are the features the apps ship with. The iOS app is our feature reference, and the Android app mirrors it.
 
-- **Rescue** - the headline feature. Diagnoses a stuck toy and runs the fixes automatically, asking for input (Wi-Fi password, hero name) only when the toy genuinely needs it.
-- **Dashboard** - the play hub: hero name and power, connection status, live battery / volume / Wi-Fi readouts, a slide-to-power action, volume control, and quick access to activities, guard mode, and the alarm.
-- **Activities** - the phrase and activity cards across the toy's interaction categories (team-up, hang-out, fight-villains style groupings).
+A quick but important note: **the play controls only work once the app is connected to the toy over Bluetooth.** Before you connect, only **Rescue** and **Connect** are active. Connect first, then use everything else.
+
+- **Rescue** - the headline feature. Diagnoses a stuck toy and runs the fixes automatically, asking for input (Wi-Fi password, hero name) only when the toy genuinely needs it. The connect step opens with a "New toy, or used it before?" chooser (also on **Settings > Connect Your Toy**) that gives tailored guidance, including the full-reboot walkthrough for a toy you used before.
+- **Dashboard** - the play hub: hero name and power, connection status, live battery / volume / Wi-Fi readouts, a slide-to-use-power action, volume control, and quick access to activities, guard mode, and the alarm.
+- **Activities** - the phrase and activity cards across the toy's interaction categories (Team Up, Hang Out, Fight Villains style groupings). Tapping a phrase shows a brief "Sending..." then "Sent to your figure" so you know it went through.
+
+![The activity cards: Team Up, Hang Out, Fight Villains, Guard Mode, Alarm](media/dashboard-activities.png)
+
+Open a category and you get its phrases, for example the Hang Out grid (Tell a Joke, Tell a Story, and more):
+
+![The Hang Out activity grid](media/hangout.png)
 - **Guard mode** - arm the toy to watch the room; it logs motion it detects into a "While You Were Away" intrusion list you can read back later.
 - **Eyes** - set the eye color (red, blue, white, off) and keep it lit so the toy's idle animation does not paint over it.
 - **Alarm** - set a wake time with repeat days.

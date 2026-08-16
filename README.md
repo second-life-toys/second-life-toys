@@ -11,6 +11,8 @@ Second Life Toys is a free, community-run project that revives the Sphero Spider
 
 If you have one of these toys sitting in a drawer because "the app doesn't work anymore," this project is for you.
 
+![The Second Life Toys app showing a revived toy: "Your toy is back!"](docs/media/rescue-success.png)
+
 ---
 
 ## The problem
@@ -29,33 +31,38 @@ Once the toy has its content on board, everything works over Bluetooth with no W
 - **Re-download content** onto a blank toy.
 - **Control the toy**: play activities, guard mode, eye colors and expressions, alarms, and the play dashboard.
 
-See [what we support](docs/what-we-support.md) and the [recovery matrix](docs/recovery-matrix.md) for the honest, detailed picture of what works today.
+![The app dashboard: hero name and power, connection status, battery, volume, Wi-Fi, and the slide-to-use-power control](docs/media/dashboard.png)
 
-## Current status: Private Beta
+## Which one are you?
 
-This project is in **private beta**. It is being actively built and tested, and we would love your help kicking the tires. Distribution is invite-based for now:
+Almost everyone is in one of two situations. Pick yours; it decides your first step.
 
-- **iOS:** through Apple TestFlight (invite-only). Send us an email to be added.
-- **Android:** a signed APK you install directly (sideload). A Google Play testing track is planned.
+- **A) I used it before.** The toy still plays: press its chest and it tells jokes or starts a game. The catch is that on a normal power-on it does **not** broadcast Bluetooth, so the app cannot find it. The fix is a full power-cycle reboot to open a fresh Bluetooth window. See [Getting started, path A](docs/getting-started.md#path-a-i-used-it-before) and the [reboot steps](docs/troubleshooting.md#full-reboot-to-get-a-bluetooth-window-case-a).
+- **B) I never set it up** (new in box, or factory-reset to fresh). It boots into setup mode with a blinking chest and broadcasts Bluetooth on its own, so the app finds and rescues it directly. See [Getting started, path B](docs/getting-started.md#path-b-i-never-set-it-up).
 
-Full instructions are in [Getting started](docs/getting-started.md).
+Not sure? Press the chest button. If it plays a joke or a game, you are **A**. If it just blinks and waits, you are **B**.
 
 ## Rescue your toy (quick start)
 
 1. **Get the app.** Follow [Getting started](docs/getting-started.md) to join the iOS beta or install the Android APK.
 2. **Turn on Bluetooth** on your phone, and keep the toy right next to it.
-3. **Wake the toy.** Press the toy's chest/stomach button so it starts advertising over Bluetooth. Its broadcast window is short (about 30 seconds), so open the app and scan right after you press it.
-4. **Open the app and tap Rescue.** The app figures out what state the toy is in and runs the fixes it can do on its own. It only asks you for a Wi-Fi password or a hero name if the toy actually needs one.
+3. **Get the toy broadcasting.** If you *used it before* (path A), do a [full reboot](docs/troubleshooting.md#full-reboot-to-get-a-bluetooth-window-case-a) and let the startup music finish. If you *never set it up* (path B), it is already broadcasting.
+4. **Open the app and tap Rescue, then Scan.** The app finds the toy, figures out what state it is in, and runs the fixes it can do on its own. It only asks you for a Wi-Fi password or a hero name if the toy actually needs one.
 5. **Play.** Once the toy is set-up-complete, press its chest button and it comes back to life.
 
-Stuck? The [troubleshooting guide](docs/troubleshooting.md) covers the common gotchas (most of them are "the phone's Bluetooth is off" or "the toy's broadcast window closed").
+See it in action (short screen recordings):
+
+- Watch: [Connect to the toy](docs/media/rescue-demo-part1-connect.mp4)
+- Watch: [Revive it](docs/media/rescue-demo-part2-revive.mp4)
+
+Stuck? The [troubleshooting guide](docs/troubleshooting.md) covers the common gotchas (most of them are "the phone's Bluetooth is off" or "the toy is not broadcasting yet").
 
 ## Documentation
 
 - [What we support](docs/what-we-support.md) - supported toys, recovery scenarios, features today, and known limitations.
 - [Recovery matrix](docs/recovery-matrix.md) - the plain-language table of "toy states we can recover" and current support.
-- [Getting started](docs/getting-started.md) - join the beta, device requirements, first connection.
-- [Troubleshooting](docs/troubleshooting.md) - friendly tips for when a scan or connection does not work.
+- [Getting started](docs/getting-started.md) - join the beta, device requirements, and the two paths (used it before / never set it up).
+- [Troubleshooting](docs/troubleshooting.md) - friendly tips for when a scan or connection does not work, including the full-reboot steps.
 - [Report a bug](docs/report-a-bug.md) - how to file an issue and share a diagnostic log.
 - [FAQ](docs/faq.md) - is it legal, is it safe, is it free, what data do you collect, and more.
 - [Roadmap](docs/roadmap.md) - where the project is and what is next.
