@@ -83,19 +83,29 @@ Your toy is in setup mode (blinking chest) and is already broadcasting Bluetooth
 
 ### Then, for both paths
 
-Once you are connected, the app shows the toy is linked, and you can start the rescue.
+Here is the whole rescue, one screen at a time.
 
-![The Rescue screen showing CONNECTED, "Toy linked," and START RESCUE](media/rescue-linked.png)
+**1. Open Rescue.** From the dashboard, tap **Rescue a stuck toy**.
 
-4. **Start the rescue.** The app diagnoses the toy's state and runs the fixes it can do on its own. It only stops to ask you for a Wi-Fi password or a hero name if the toy actually needs one.
-5. **You are back.** When the rescue finishes, the app tells you, and a chest press brings the toy to life.
+![The app dashboard with the Rescue a stuck toy option](media/dashboard.png)
 
-![The "Your toy is back!" success screen](media/rescue-success.png)
+**2. Scan for your toy.** Tap **Scan for my toy**. The "New toy, or used it before?" helper is right here if you need it.
 
-Prefer to watch first? These short screen recordings show the whole thing:
+![The Rescue connect screen with Scan for my toy and the New toy or used it before helper](media/rescue-connect.png)
 
-- Watch: [Connect to the toy](media/rescue-demo-part1-connect.mp4) (launch, scan, connect, "Toy linked").
-- Watch: [Revive it](media/rescue-demo-part2-revive.mp4) (Start Rescue through "Your toy is back!").
+**3. The toy appears.** It shows up as a name starting with `ST`. Tap it to connect.
+
+![The toy listed as ST1e9fda in the scan results](media/rescue-found.png)
+
+**4. Toy linked.** The app connects and shows **START RESCUE**.
+
+![The Rescue screen showing CONNECTED, Toy linked, and START RESCUE](media/rescue-linked.png)
+
+**5. Start the rescue.** The app diagnoses the toy's state and runs the fixes it can do on its own. It only stops to ask you for a Wi-Fi password or a hero name if the toy actually needs one.
+
+**6. You are back.** When the rescue finishes, the app tells you, and a chest press brings the toy to life.
+
+![The Your toy is back success screen](media/rescue-success.png)
 
 If the app does not find the toy, do not worry, that is usually one of a handful of simple things. Head to [Troubleshooting](troubleshooting.md); the top tips are to re-broadcast the toy (a full reboot for a used toy) and to confirm the phone's Bluetooth is truly on.
 

@@ -50,10 +50,7 @@ Not sure? Press the chest button. If it plays a joke or a game, you are **A**. I
 4. **Open the app and tap Rescue, then Scan.** The app finds the toy, figures out what state it is in, and runs the fixes it can do on its own. It only asks you for a Wi-Fi password or a hero name if the toy actually needs one.
 5. **Play.** Once the toy is set-up-complete, press its chest button and it comes back to life.
 
-See it in action (short screen recordings):
-
-- Watch: [Connect to the toy](docs/media/rescue-demo-part1-connect.mp4)
-- Watch: [Revive it](docs/media/rescue-demo-part2-revive.mp4)
+See it step by step: the [Getting Started guide](docs/getting-started.md#then-for-both-paths) walks through the whole rescue with a screenshot of every screen.
 
 Stuck? The [troubleshooting guide](docs/troubleshooting.md) covers the common gotchas (most of them are "the phone's Bluetooth is off" or "the toy is not broadcasting yet").
 
