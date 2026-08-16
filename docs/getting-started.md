@@ -103,7 +103,7 @@ Here is the whole rescue, one screen at a time.
 
 **5. Start the rescue.** The app diagnoses the toy's state and runs the fixes it can do on its own. It only stops to ask you for a Wi-Fi password or a hero name if the toy actually needs one.
 
-![The rescue running: a Connect, Wi-Fi, Name, Content, Play progress rail with a live activity log](media/rescue-running.png)
+![The rescue nearly finished: Connect, Wi-Fi, and Name complete with Content underway on the Connect, Wi-Fi, Name, Content, Play progress rail](media/rescue-running.png)
 
 **6. You are back.** When the rescue finishes, the app tells you, and a chest press brings the toy to life.
 
