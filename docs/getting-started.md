@@ -29,7 +29,7 @@ The app itself asks you the same question. On the **Rescue** screen (and under *
 
 The iOS app is distributed through Apple's TestFlight, and it is invite-only during the private beta.
 
-1. **Email us to request an invite.** Send your email address to **`<BETA_REQUEST_EMAIL>`** (maintainer: fill this in) and ask to join the Second Life Toys TestFlight beta. Use the same email you use for your Apple ID / App Store, since that is the address we add to the beta.
+1. **Request an invite on Reddit.** Comment on our pinned Second Life Toys beta thread in [r/Sphero](https://www.reddit.com/r/Sphero/) with the email address you want the invite sent to. Use the same email as your Apple ID / App Store, since that is the address we add to the beta.
 2. **We add you to the TestFlight group** and you will get an email invitation from TestFlight.
 3. **Install TestFlight** from the App Store on your iPhone or iPad if you do not already have it.
 4. **Open the invitation** and tap Accept, then install Second Life Toys from within TestFlight.
@@ -41,7 +41,7 @@ TestFlight is Apple's official beta system, so this is a normal, safe install pa
 
 The Android app is currently distributed as a **signed APK** that you install directly. A Google Play testing track is planned (see the [roadmap](roadmap.md)), but for now you install the APK by hand. This is called sideloading.
 
-1. **Download the APK** to your Android phone from: **`<ANDROID_APK_DOWNLOAD_URL>`** (maintainer: fill this in).
+1. **Download the APK** to your Android phone from: **`https://github.com/second-life-toys/second-life-toys/releases/latest/download/second-life-toys.apk`**.
 2. **Allow installs from this source.** When you open the APK, Android will ask whether to allow installing apps from that source (your browser or Files app). Approve it. On modern Android this is a per-app permission (Settings can also be reached under Apps > Special access > Install unknown apps).
 3. **Tap the downloaded APK** and choose Install.
 4. **Open Second Life Toys.**

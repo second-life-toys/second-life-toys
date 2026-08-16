@@ -37,13 +37,13 @@ It does **not** contain your account details, your contacts, your location, your
 
 ## Open the issue
 
-1. Go to the project's GitHub issues page: **`<GITHUB_REPO_URL>`/issues** (maintainer: fill in the repo URL).
+1. Go to the project's GitHub issues page: **`https://github.com/second-life-toys/second-life-toys`/issues** (maintainer: fill in the repo URL).
 2. Click **New issue** and pick **Bug report**.
 3. Fill in the template. It asks for the important things: what state the toy was in, your phone model and OS version, the app version, the steps you took, and what happened.
 4. **Attach your diagnostic log** (`second-life-toys-diag.txt`) to the issue. On GitHub you can drag the file into the comment box, or use the attachment control.
 5. Submit.
 
-If you cannot use GitHub, you can email the same details and the log file to **`<BETA_REQUEST_EMAIL>`** (maintainer: fill this in).
+If you cannot use GitHub, you can share the same details and the log file on our beta thread in [r/Sphero](https://www.reddit.com/r/Sphero/).
 
 ## Privacy reassurance
 

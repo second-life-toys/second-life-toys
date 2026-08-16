@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Troubleshooting guide
-    url: https://github.com/<GITHUB_ORG>/<GITHUB_REPO>/blob/main/docs/troubleshooting.md
+    url: https://github.com/second-life-toys/second-life-toys/blob/main/docs/troubleshooting.md
     about: Most scan and connection problems are covered here. Please check before filing.
   - name: How to share a diagnostic log
-    url: https://github.com/<GITHUB_ORG>/<GITHUB_REPO>/blob/main/docs/report-a-bug.md
+    url: https://github.com/second-life-toys/second-life-toys/blob/main/docs/report-a-bug.md
     about: Steps to export the log (Settings > Diagnostics > Share Log) and attach it.
   - name: Request the iOS TestFlight beta
-    url: mailto:<BETA_REQUEST_EMAIL>
-    about: Email us to be added to the invite-only iOS beta.
+    url: https://www.reddit.com/r/Sphero/
+    about: Comment on our pinned Second Life Toys beta thread in r/Sphero to be added to the invite-only iOS beta.
