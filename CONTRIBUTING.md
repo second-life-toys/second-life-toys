@@ -15,7 +15,7 @@ If you have a Sphero Spider-Man interactive toy, the single most useful thing yo
 - **Bug reports** with a diagnostic log attached. See [docs/report-a-bug.md](docs/report-a-bug.md).
 - **Feature requests and ideas.** Open an issue using the feature request template.
 - **Documentation fixes.** Spotted a confusing step, a typo, or something that is out of date? A pull request against the docs is very welcome. This repository is documentation, so doc changes land here.
-- **Helping other owners.** Answering questions in issues from people whose toys are stuck is genuinely helpful.
+- **Helping other owners.** Answering questions in issues from people whose toys are stuck is a real help.
 
 ## Filing a good issue
 

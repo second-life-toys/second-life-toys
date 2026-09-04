@@ -1,23 +1,33 @@
 # Second Life Toys
 
-![Status: Private Beta](https://img.shields.io/badge/status-private%20beta-orange)
-![Platforms: iOS & Android](https://img.shields.io/badge/platforms-iOS%20%26%20Android-blue)
+[![Status: Pre-alpha](https://img.shields.io/badge/status-pre--alpha-orange)](https://github.com/second-life-toys/second-life-toys/releases)
+[![Platforms: iOS & Android](https://img.shields.io/badge/platforms-iOS%20%26%20Android-blue)](docs/getting-started.md)
 ![Price: Free](https://img.shields.io/badge/price-free-brightgreen)
-![License: Docs CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey)
+![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey)
 
-**Bring your abandoned interactive toy back to life.**
+**Bring your dead Sphero Spider-Man toy back to life.**
 
-Second Life Toys is a free, community-run project that revives the Sphero Spider-Man interactive toy (the talking 2017 figure) after the manufacturer discontinued its official app and shut down the servers that the toy relied on. Thousands of these toys went dark, got stuck mid-setup, or shipped brand new and could never be set up at all. Second Life Toys stands in for the servers that are gone and gives you free apps that talk to the toy directly.
+I bought a Sphero Spider-Man years ago, played with it a bit, then it went in a closet. Then Sphero shut down the app and the servers, and just like that my toy was a paperweight. A couple months ago I pulled mine out and told myself I was going to revive it. Spoiler alert, it worked. So I built these apps so you can revive yours too.
 
-If you have one of these toys sitting in a drawer because "the app doesn't work anymore," this project is for you.
+**Second Life Toys** is a pair of free apps that talk to the toy over Bluetooth, plus a small cloud I run to replace the servers Sphero took down. No account, no sign-in. It works, and it has already brought real toys back.
 
-![The Second Life Toys app showing a revived toy: "Your toy is back!"](docs/media/rescue-success.png)
+<img src="docs/media/rescue-success.png" alt="The Second Life Toys app showing a revived toy: Your toy is back!" width="320">
+
+## Get the app
+
+**Android (pre-alpha):** [Download the signed APK](https://github.com/second-life-toys/second-life-toys/releases/latest/download/second-life-toys.apk) from [GitHub Releases](https://github.com/second-life-toys/second-life-toys/releases), then sideload it. It's pre-alpha, so expect some rough edges, but it works. Google Play review is in progress.
+
+Signed APK. No account, no sign-in, no personal data. Free. Independent community project.
+
+**iOS (TestFlight):** invite-only right now. DM me on Reddit (r/Sphero) with the email on your Apple ID and I'll get you in.
+
+New to sideloading, or want the step-by-step? See [Getting started](docs/getting-started.md).
 
 ---
 
 ## The problem
 
-When the official app and cloud service were retired, the toys did not stop being good hardware. They stopped being able to *finish what they were doing*. Point one at the old app and nothing happens. Some are stuck partway through setup. Some were factory-reset and can never come back on their own. Some say "download the app" forever. The toy is fine. The service it was leaning on is just gone.
+When the official app and cloud got retired, the toys did not stop being good hardware. They just lost the ability to *finish what they were doing*. You point one at the old app and nothing happens. Some are stuck partway through setup. Some got factory-reset and can never come back on their own. Some say "download the app" forever. The toy is fine. The service it was leaning on is the part that's gone.
 
 ## What Second Life Toys does
 
@@ -27,26 +37,23 @@ When the official app and cloud service were retired, the toys did not stop bein
 Once the toy has its content on board, everything works over Bluetooth with no Wi-Fi and no account. The apps can:
 
 - **Rescue** stuck, half-set-up, "bricked," or factory-reset toys and walk them back to a playable state.
-- **Reconnect Wi-Fi** and finish setup.
-- **Re-download content** onto a blank toy.
-- **Control the toy**: play activities, guard mode, eye colors and expressions, alarms, and the play dashboard.
+- **Load content** onto a blank toy. Most of the content already lives on the toy, so most toys revive over Bluetooth with no Wi-Fi at all. Wi-Fi is a one-time step only for a completely blank toy.
+- **Control the toy**: play activities, guard mode, eye colors and expressions, alarms, volume, and the play dashboard.
 
-![The app dashboard: hero name and power, connection status, battery, volume, Wi-Fi, and the slide-to-use-power control](docs/media/dashboard.png)
-
-## Which one are you?
-
-Almost everyone is in one of two situations. Pick yours; it decides your first step.
-
-- **A) I used it before.** The toy still plays: press its chest and it tells jokes or starts a game. The catch is that on a normal power-on it does **not** broadcast Bluetooth, so the app cannot find it. The fix is a full power-cycle reboot to open a fresh Bluetooth window. See [Getting started, path A](docs/getting-started.md#path-a-i-used-it-before) and the [reboot steps](docs/troubleshooting.md#full-reboot-to-get-a-bluetooth-window-case-a).
-- **B) I never set it up** (new in box, or factory-reset to fresh). It boots into setup mode with a blinking chest and broadcasts Bluetooth on its own, so the app finds and rescues it directly. See [Getting started, path B](docs/getting-started.md#path-b-i-never-set-it-up).
-
-Not sure? Press the chest button. If it plays a joke or a game, you are **A**. If it just blinks and waits, you are **B**.
+<table>
+<tr>
+<td><img src="docs/media/dashboard.png" alt="The app dashboard: hero name and power, connection status, battery, volume, Wi-Fi, and the slide-to-use-power control" width="320"></td>
+<td><img src="docs/media/dashboard-activities.png" alt="Activity cards in the app: pick an activity for the toy to play" width="320"></td>
+</tr>
+</table>
 
 ## Rescue your toy (quick start)
 
-1. **Get the app.** Follow [Getting started](docs/getting-started.md) to join the iOS beta or install the Android APK.
+**Not sure which situation you're in?** Press the chest button. If it plays a joke or a game, you used it before. If it just blinks and waits, it was never set up. I cover both in [Getting started](docs/getting-started.md).
+
+1. **Get the app.** Grab the [Android APK](https://github.com/second-life-toys/second-life-toys/releases) up top, or for iOS DM me on r/Sphero for a TestFlight invite. Details in [Getting started](docs/getting-started.md).
 2. **Turn on Bluetooth** on your phone, and keep the toy right next to it.
-3. **Get the toy broadcasting.** If you *used it before* (path A), do a [full reboot](docs/troubleshooting.md#full-reboot-to-get-a-bluetooth-window-case-a) and let the startup music finish. If you *never set it up* (path B), it is already broadcasting.
+3. **Get the toy broadcasting.** If you *used it before*, do a [full reboot](docs/troubleshooting.md#full-reboot-to-get-a-bluetooth-window-case-a) and let the startup music finish. If you *never set it up*, it is already broadcasting.
 4. **Open the app and tap Rescue, then Scan.** The app finds the toy, figures out what state it is in, and runs the fixes it can do on its own. It only asks you for a Wi-Fi password or a hero name if the toy actually needs one.
 5. **Play.** Once the toy is set-up-complete, press its chest button and it comes back to life.
 
@@ -58,22 +65,24 @@ Stuck? The [troubleshooting guide](docs/troubleshooting.md) covers the common go
 
 - [What we support](docs/what-we-support.md) - supported toys, recovery scenarios, features today, and known limitations.
 - [Recovery matrix](docs/recovery-matrix.md) - the plain-language table of "toy states we can recover" and current support.
-- [Getting started](docs/getting-started.md) - join the beta, device requirements, and the two paths (used it before / never set it up).
+- [Getting started](docs/getting-started.md) - install the app, device requirements, and the two paths (used it before / never set it up).
 - [Troubleshooting](docs/troubleshooting.md) - friendly tips for when a scan or connection does not work, including the full-reboot steps.
 - [Report a bug](docs/report-a-bug.md) - how to file an issue and share a diagnostic log.
 - [FAQ](docs/faq.md) - is it legal, is it safe, is it free, what data do you collect, and more.
+- [Security](SECURITY.md) - how to verify your download, what permissions the app asks for, and how to report a vulnerability.
 - [Roadmap](docs/roadmap.md) - where the project is and what is next.
+- [Field guide](docs/field-guide/README.md) - a deeper reference layer: what the toy is (anatomy), how it works, the game it plays, its firmware and app versions, its product history, and our living intake log.
 
 ## Contributing and community
 
-This is a community project and help is welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md). The friendliest first contribution is simply trying the app on your toy and telling us what happened.
+This is a community project and I'd love the help. See [CONTRIBUTING.md](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md). The friendliest first contribution is just trying the app on your toy and telling me what happened.
 
 ## Disclaimer
 
-Second Life Toys is an independent community project. **It is not affiliated with, endorsed by, or sponsored by Marvel, Disney, or Sphero.** "Sphero" and "Spider-Man" are used only to describe which discontinued toy this project is compatible with, as a plain statement of fact. All trademarks belong to their respective owners. This project uses no Marvel, Disney, or Sphero artwork, logos, or copyrighted assets.
+Second Life Toys is an independent community project. **It is not affiliated with, endorsed by, or sponsored by Marvel, Disney, or Sphero.** "Sphero" and "Spider-Man" are used only to describe which discontinued toy this project is compatible with. All trademarks belong to their respective owners.
 
 The full statement, along with a safety and "use at your own risk" note, is in [DISCLAIMER.md](DISCLAIMER.md).
 
 ## License
 
-Documentation in this repository is licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](LICENSE). The apps and other software are covered by their own licenses in their own repositories.
+Documentation in this repository is licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](LICENSE). The apps are distributed as builds; their source is maintained separately.

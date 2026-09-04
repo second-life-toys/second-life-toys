@@ -4,7 +4,7 @@ This is an honest snapshot of where Second Life Toys is and where it is headed. 
 
 ## Where we are today
 
-**Status: Private Beta.**
+**Status: Android pre-alpha (sideload), iOS TestFlight (invite-only).**
 
 - **iOS app** on Apple TestFlight (invite-only). This is our feature reference.
 - **Android app** distributed as a signed APK for direct install (sideload).
@@ -20,14 +20,14 @@ The [recovery matrix](recovery-matrix.md) tracks exactly which toy states are pr
 - Wi-Fi provisioning to bring a blank toy online for its content download.
 - Play and control features: dashboard, activities, guard mode, eyes, alarm.
 - Diagnostics log and Share Log for bug reports.
-- Demo / preview mode to see the experience without a physical toy.
 
 ## Planned / in progress
 
-- **Android on Google Play (internal testing track).** Pending Play developer-account verification. This will make Android installs a normal Play flow instead of a sideload.
+- **Android on Google Play (internal testing track).** Going through Google Play review. This will make Android installs a normal Play flow instead of a sideload.
 - **Public TestFlight and, eventually, App Store release** on iOS, once the beta is solid.
 - **Broadening recovery coverage.** Confirming the fully-offline revive of a never-set-up toy end to end, nailing down factory-reset behavior, and validating self-heal for older stuck-in-setup toys. These are the open items in the [recovery matrix](recovery-matrix.md).
 - **More polish across both apps** as beta feedback comes in.
+- **Something more for these toys.** Reviving them is the first thing I'm shipping, not the last.
 
 ## Not planned
 

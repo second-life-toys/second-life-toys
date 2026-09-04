@@ -1,114 +1,115 @@
 # Getting started
 
-Second Life Toys is in **private beta**. This page walks you through joining the beta on your platform, working out which of the two paths you are on, and making your first connection to the toy.
+Welcome. This page gets the free app onto your phone and connects it to your Spider-Man toy. It takes about five minutes, and most of that is just waiting for the toy's startup music. We walk you through every tap.
+
+*Not affiliated with, endorsed by, or sponsored by Marvel, Disney, or Sphero. This is a fan-made project to bring a discontinued toy back to life.*
 
 ## What you need
 
-- The **Sphero Spider-Man interactive toy** (the 2017 talking figure), charged and powered on.
-- A phone or tablet with **Bluetooth**:
-  - **iPhone or iPad** running **iOS 16 or later**, or
-  - An **Android phone** running **Android 8.0 or later**.
-- A few minutes and, for a completely blank toy only, your **Wi-Fi network name and password**. (Most toys do not need this. See the [recovery matrix](recovery-matrix.md).)
+- The **Sphero Spider-Man interactive toy** (the 2017 talking figure), charged and turned on.
+- A phone or tablet with **Bluetooth** (that is the short-range wireless your phone uses for headphones and such):
+  - **iPhone or iPad** on **iOS 16 or later**, or
+  - An **Android phone** on **Android 8.0 or later**.
+- For a completely blank toy only, your home **Wi-Fi name and password**. Most toys never need this. (See the [recovery matrix](recovery-matrix.md) for which ones do.)
 
-You do **not** need an account, a sign-in, or to give us any personal information to rescue or play with your toy.
+You do **not** need an account, a sign-in, or to give us any personal information. There is no sign-in at all.
 
-## Which one are you?
+## Which kind of toy do you have?
 
-Every toy is in one of two situations, and they start differently. Press the toy's chest button to tell them apart:
+There are two kinds, and they behave a little differently. To tell which one you have, **press the toy's chest button** and watch:
 
-- **If it plays a joke, tells a story, or starts a game, you are Path A ("I used it before").** It still has all its content, but on a normal power-on it does not broadcast Bluetooth, so the app cannot find it yet. You need to open a Bluetooth window with a full reboot.
-- **If it just blinks (a blinking chest) and waits, you are Path B ("I never set it up").** It is in setup mode and broadcasts Bluetooth on its own, so the app can find it right away.
+- **If it plays a joke, tells a story, or starts a game, you used it before.** It still has everything on board. The catch: when you just turn it on, it does not call out over Bluetooth, so your phone cannot spot it yet. You will fix that with a quick full reboot (steps below).
+- **If it only blinks and waits, it was never set up.** It is already calling out over Bluetooth, so your phone can find it right away.
 
-The app itself asks you the same question. On the **Rescue** screen (and under **Settings > Connect Your Toy**) there is a "New toy, or used it before?" chooser. Pick **Used it before** or **Brand new** and it shows the guidance for your path, including the reboot walkthrough for used toys.
+One word you will see a lot: **broadcasting.** For your phone to find the toy, the toy has to be *broadcasting* over Bluetooth, which just means calling out, like waving so the phone can spot it in a crowd. The toy only does this for about 30 seconds after you turn it on or press its chest, then it goes quiet again. If a scan finds nothing, that quiet window is usually why, and you just wake it up again.
 
-![The Rescue "Step 1 - Connect" screen with the "New toy, or used it before?" triage](media/rescue-connect.png)
+## Get the app
 
-## Join the beta
+### iPhone or iPad (TestFlight)
 
-### iOS (Apple TestFlight)
+The iPhone version is invited by hand through Apple's official beta app, TestFlight. A real person adds you, so it can take a little while.
 
-The iOS app is distributed through Apple's TestFlight, and it is invite-only during the private beta.
+1. **Ask for an invite on Reddit.** Send a private message (a "DM") to the maintainer on [r/Sphero](https://www.reddit.com/r/Sphero/). Sending a message needs a free Reddit account. In the message, include the email on your **Apple ID** (your App Store email), because that is where the invite is sent. If this iPad or iPhone is signed in with a parent's Apple ID, use the parent's email and have them accept the invite.
+2. **Wait for the email invitation** from TestFlight.
+3. **Install TestFlight** from the App Store, if you do not have it already.
+4. **Open the invitation, tap Accept,** then install Second Life Toys from inside TestFlight.
+5. TestFlight tells you when a newer version is ready. If the app ever stops opening after a few months, that just means the beta expired, so check TestFlight for an update.
 
-1. **Request an invite on Reddit.** Comment on our pinned Second Life Toys beta thread in [r/Sphero](https://www.reddit.com/r/Sphero/) with the email address you want the invite sent to. Use the same email as your Apple ID / App Store, since that is the address we add to the beta.
-2. **We add you to the TestFlight group** and you will get an email invitation from TestFlight.
-3. **Install TestFlight** from the App Store on your iPhone or iPad if you do not already have it.
-4. **Open the invitation** and tap Accept, then install Second Life Toys from within TestFlight.
-5. TestFlight will notify you when there is a new beta build to update to.
+TestFlight is Apple's own beta system, so this is a normal, safe way to install.
 
-TestFlight is Apple's official beta system, so this is a normal, safe install path. TestFlight builds do expire periodically; if the app stops opening after a while, check TestFlight for an update.
+### Android (install the app)
 
-### Android (sideload the APK)
+Second Life Toys for Android is very early and still being built, so it is not in the Google Play Store yet. You install it from our official page as an **APK** (that is just the file that installs an Android app, like a `.exe` on a computer). This is safe when you get the file from the link below.
 
-The Android app is currently distributed as a **signed APK** that you install directly. A Google Play testing track is planned (see the [roadmap](roadmap.md)), but for now you install the APK by hand. This is called sideloading.
+1. **Open the Releases page** on your Android phone: [github.com/second-life-toys/second-life-toys/releases](https://github.com/second-life-toys/second-life-toys/releases). Under the newest release, tap the file whose name ends in **`.apk`** to download it.
+2. **When it finishes, tap the download.** Look for a "download complete" note in your notifications and tap it. If you miss it, open the **Files** app, go to **Downloads,** and tap the `.apk` file there.
+3. **Say yes to "install unknown apps."** Android may ask whether to allow installing apps from your browser or Files app. Tap to allow it. *This sounds scarier than it is.* It only means the app did not come from the Play Store, and you are turning it on for your browser this one time.
+4. **If Android warns it does not recognize the app's maker, that is expected** for any app not yet in the Play Store. Tap **More details,** then **Install anyway.**
+5. **Tap Install.** You will see a grey install screen, then "App installed" with an **Open** button.
+6. **Tap Open** to start Second Life Toys.
 
-1. **Download the APK** to your Android phone from: **`https://github.com/second-life-toys/second-life-toys/releases/latest/download/second-life-toys.apk`**.
-2. **Allow installs from this source.** When you open the APK, Android will ask whether to allow installing apps from that source (your browser or Files app). Approve it. On modern Android this is a per-app permission (Settings can also be reached under Apps > Special access > Install unknown apps).
-3. **Tap the downloaded APK** and choose Install.
-4. **Open Second Life Toys.**
+Only ever install this app from the official Releases page above. Later updates from that same page will install right over the top. If an update ever refuses to install, that is Android saying the new file did not come from the same place as the app you already have, so delete the old app and reinstall from the official link.
 
-Notes on safety: only install the APK from the official link above. The APK is signed, so once you have installed our build, updates signed with the same key will install cleanly over it. If an APK ever refuses to install over an existing one, that is Android telling you the signatures do not match, which is a signal to double-check where you got it.
+## Revive your toy
 
-## First connection
+This is the main event, one screen at a time. Follow it top to bottom.
 
-The order that matters most: **get the toy broadcasting, connect, then use the controls.** The play controls (activities, guard mode, alarm, eyes) only work once the app is connected over Bluetooth. Before you connect, only **Rescue** and **Connect** are active.
+**1. Turn your phone's Bluetooth ON.** You should see the Bluetooth icon in your status bar. A phone with Bluetooth off is the number-one reason a scan finds nothing, and it fails silently with no error, so double-check this one.
 
-Common setup for both paths:
+**2. Keep the toy right next to the phone.** Bluetooth only reaches a short distance, so set the toy down beside the phone, not across the room.
 
-1. **Turn on your phone's Bluetooth.** This sounds obvious, but a disabled Bluetooth adapter is the single most common reason a scan finds nothing. Make sure it is fully on.
-2. **Put the toy right next to the phone.** Bluetooth LE range is short; keep them close.
+**3. Used your toy before? Reboot it first.** (Skip this if your toy only blinks and waits, it is already broadcasting.) A used toy will not show up until you give it a fresh broadcasting window with a full reboot:
 
-### Path A: I used it before
+  1. Press and hold the chest button about 5 seconds, until you hear a "duh-dun-duh-dun-dun" sound.
+  2. The chest light flashes off, back on, then off again. That is it powering down.
+  3. Wait about 10 seconds.
+  4. Press and hold the chest button again until the light glows, then let go.
+  5. It boots up and plays its startup music. Let the music finish.
+  6. Now it is broadcasting. Move to the next step right away, the window is short.
 
-Your toy has its content and plays on a chest press, but it will not appear in a scan until you give it a fresh Bluetooth window with a full reboot.
+![The six-step full-reboot walkthrough](media/rescue-reboot-walkthrough.png)
 
-1. In the app, open **Rescue** (or **Settings > Connect Your Toy**) and choose **Used it before**. It shows the same reboot steps below.
-2. **Full-reboot the toy** (verbatim):
-   1. Press and hold the chest button about 5 seconds, until you hear a "duh-dun-duh-dun-dun" sound.
-   2. The chest light flashes off, back on, then off again. That is it powering down.
-   3. Wait about 10 seconds.
-   4. Press and hold the chest button again until the light glows, then let go.
-   5. It boots up and plays its startup music. Let the music finish.
-   6. Now it is broadcasting Bluetooth. Open the app and tap Scan.
-3. **Connect** to the toy when it appears.
+**4. Open the app and tap "Rescue a stuck toy."** The app opens to a dashboard. Tap the red **Rescue a stuck toy** button.
 
-There is a picture-by-picture version of these steps in [Troubleshooting](troubleshooting.md#full-reboot-to-get-a-bluetooth-window-case-a).
+![The app dashboard with the Rescue a stuck toy button](media/dashboard.png)
 
-### Path B: I never set it up
+**5. Tap "Scan for my toy."** The button changes to "Scanning..." while it looks for your toy.
 
-Your toy is in setup mode (blinking chest) and is already broadcasting Bluetooth.
+![The Rescue connect screen with the Scan for my toy button](media/rescue-connect.png)
 
-1. In the app, open **Rescue** and choose **Brand new**.
-2. **Tap Scan.** The app looks for a toy advertising with a name starting with `ST`.
-3. **Connect** to your toy when it appears.
-
-### Then, for both paths
-
-Here is the whole rescue, one screen at a time.
-
-**1. Open Rescue.** From the dashboard, tap **Rescue a stuck toy**.
-
-![The app dashboard with the Rescue a stuck toy option](media/dashboard.png)
-
-**2. Scan for your toy.** Tap **Scan for my toy**. The "New toy, or used it before?" helper is right here if you need it.
-
-![The Rescue connect screen with Scan for my toy and the New toy or used it before helper](media/rescue-connect.png)
-
-**3. The toy appears.** It shows up as a name starting with `ST`. Tap it to connect.
+**6. Your toy appears. Tap it.** It shows up as a name that starts with **`ST`** (for example `ST1e9fda`). Tap that name to connect.
 
 ![The toy listed as ST1e9fda in the scan results](media/rescue-found.png)
 
-**4. Toy linked.** The app connects and shows **START RESCUE**.
+**7. It says "Toy linked." Tap START RESCUE.** A green check and "Toy linked" mean you are connected. Tap the red **START RESCUE** button.
 
-![The Rescue screen showing CONNECTED, Toy linked, and START RESCUE](media/rescue-linked.png)
+![The Rescue screen showing Connected, Toy linked, and START RESCUE](media/rescue-linked.png)
 
-**5. Start the rescue.** The app diagnoses the toy's state and runs the fixes it can do on its own. It only stops to ask you for a Wi-Fi password or a hero name if the toy actually needs one.
+**8. Let the app do its thing.** It figures out what is wrong and fixes what it can on its own. It only stops to ask you for something if the toy truly needs it. **Only a completely blank toy needs Wi-Fi,** and only once, to download its content. If it does ask, type your home Wi-Fi name and password (or a hero name), which is normal and one-time. Most toys revive over Bluetooth with no Wi-Fi at all.
 
-![The rescue nearly finished: Connect, Wi-Fi, and Name complete with Content underway on the Connect, Wi-Fi, Name, Content, Play progress rail](media/rescue-running.png)
+![The rescue in progress, working through Connect, Wi-Fi, Name, Content, and Play](media/rescue-running.png)
 
-**6. You are back.** When the rescue finishes, the app tells you, and a chest press brings the toy to life.
+**9. "Your toy is back!"** When the app says you are done, press the toy's chest button. It plays a joke or starts a game, just like before.
 
 ![The Your toy is back success screen](media/rescue-success.png)
 
-If the app does not find the toy, do not worry, that is usually one of a handful of simple things. Head to [Troubleshooting](troubleshooting.md); the top tips are to re-broadcast the toy (a full reboot for a used toy) and to confirm the phone's Bluetooth is truly on.
+If the toy never showed up in step 6, do not worry, it is almost always one small thing. See [Troubleshooting](troubleshooting.md). The top two tips: make sure your phone's Bluetooth is truly on, and reboot a used toy to reopen its broadcasting window.
 
-Want to see how it works before your toy is handy? Both apps include a **demo / preview mode** that walks through the rescue-and-play experience with a simulated toy.
+## Just want to play?
+
+If your toy already works and you just want to control it, use the play path instead of Rescue.
+
+1. On the dashboard, tap **Tap to find your figure.**
+2. Tap **Scan for my toy,** then tap your toy (the name starting with `ST`) when it appears.
+3. **The first time only,** you will see a **Wake Your Figure** screen. Press the toy's chest button, then tap **Done.**
+4. Now you are on the dashboard, connected. You can start activities (Team Up, Hang Out, Fight Villains), turn on Guard Mode, set an alarm, change the eye colors, and adjust the volume. When you tap an activity, the toy plays it.
+
+![The dashboard controls: Team Up, Hang Out, Fight Villains, Guard Mode, Alarm, and volume](media/dashboard-activities.png)
+
+## No toy handy?
+
+Want to see how the app works before you dig the toy out? On the Rescue screen, tap **No toy handy? See how it works.** It runs a quick preview with no toy needed, so you can look around safely.
+
+## If it does not work
+
+Head to [Troubleshooting](troubleshooting.md). Nearly every "it will not find my toy" moment is one of a few simple things, and the two that fix it most often are: confirm your phone's Bluetooth is genuinely on, and reboot a used toy to reopen its short broadcasting window.

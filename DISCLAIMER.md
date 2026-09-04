@@ -20,4 +20,4 @@ You use this project at your own risk. This is beta-quality software that intera
 
 ## Privacy
 
-The core experience (rescuing and playing with your toy) requires no account and collects no personal information. Diagnostic logs you choose to send for bug reports contain technical Bluetooth and connection data, not personal content. See [docs/report-a-bug.md](docs/report-a-bug.md) for details on what a log contains.
+The core experience (rescuing and playing with your toy) requires no account and collects no personal information. Diagnostic logs you choose to send for bug reports are technical Bluetooth and connection data, not personal content like contacts, location, or account details. If you run Wi-Fi setup during a session, the log can include that exchange, so it's plain text and you're welcome to open it and remove your Wi-Fi password before sending. See [docs/report-a-bug.md](docs/report-a-bug.md) for details on what a log contains.

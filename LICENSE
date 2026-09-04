@@ -24,7 +24,7 @@ https://creativecommons.org/licenses/by/4.0/legalcode
 ---
 
 Note on scope: this license covers the documentation (text) in this
-repository only. The Second Life Toys apps and other software are covered by
-their own licenses in their own repositories. Trademarks referenced in this
-documentation remain the property of their respective owners; see
+repository only. The Second Life Toys apps are distributed as builds; their
+source is maintained separately under its own license. Trademarks referenced
+in this documentation remain the property of their respective owners; see
 DISCLAIMER.md.

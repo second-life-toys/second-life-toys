@@ -1,6 +1,6 @@
 # Report a bug
 
-Bug reports are genuinely how this project gets better, especially reports that include a **diagnostic log**. The log captures what the app saw during the Bluetooth scan and connection, which is usually enough for us to spot what went wrong without needing your toy in hand.
+Bug reports are how this project gets better, especially reports that include a **diagnostic log**. The log captures what the app saw during the Bluetooth scan and connection, which is usually enough for us to spot what went wrong without needing your toy in hand.
 
 ## Before you file
 
@@ -33,20 +33,20 @@ The diagnostic log is there to debug Bluetooth and connection problems, so it co
 - The raw packets sent to and received from the toy during the session.
 - Basic app and phone info (app version, Android/iOS version, phone model) to help us reproduce it.
 
-It does **not** contain your account details, your contacts, your location, your Wi-Fi password, or any personal content. It is a technical trace of the app talking to the toy. You are welcome to open the `.txt` file and read it before you send it; it is plain text.
+It is technical Bluetooth and connection data, not personal content like your contacts, your location, or your account details. It is a trace of the app talking to the toy. One thing to know: if you run Wi-Fi setup during a session, the log can include that exchange, so it's plain text and you're welcome to open the `.txt` file and remove your Wi-Fi password before sending.
 
 ## Open the issue
 
-1. Go to the project's GitHub issues page: **`https://github.com/second-life-toys/second-life-toys`/issues** (maintainer: fill in the repo URL).
+1. Go to the [project's GitHub issues page](https://github.com/second-life-toys/second-life-toys/issues).
 2. Click **New issue** and pick **Bug report**.
 3. Fill in the template. It asks for the important things: what state the toy was in, your phone model and OS version, the app version, the steps you took, and what happened.
 4. **Attach your diagnostic log** (`second-life-toys-diag.txt`) to the issue. On GitHub you can drag the file into the comment box, or use the attachment control.
 5. Submit.
 
-If you cannot use GitHub, you can share the same details and the log file on our beta thread in [r/Sphero](https://www.reddit.com/r/Sphero/).
+If you cannot use GitHub, you can share the same details and the log file on [r/Sphero](https://www.reddit.com/r/Sphero/).
 
 ## Privacy reassurance
 
 We only want what helps us fix the problem. The diagnostic log is technical, not personal. If you would rather trim anything out of it before sending, go ahead; it is a plain text file. And if you ever spot something in a log you are not comfortable sharing, tell us and we will work with whatever you can give.
 
-Thank you for taking the time. Every report, even a "this happened and I do not know why," moves the project forward.
+Thanks for sending one. Even a "this happened and I have no idea why" tells me something.
