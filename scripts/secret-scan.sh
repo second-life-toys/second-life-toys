@@ -14,6 +14,7 @@ key_markers='AGE-SECRET-KEY-1|-----BEGIN [A-Z ]*PRIVATE KEY-----'
 serial='FEP[0-9]{3}-[0-9]{2}-[0-9]{4}'
 serial_placeholder='FEP000-00-0000'
 
+# NOTE: token length pre-filter below (n==9/16/32/64) must cover the lengths of these secrets.
 # SHA-256 of exact secret tokens (values live only in sops-encrypted files; only hashes appear here).
 bad_hashes="
   a57cd170c5dbe5f3b52c3698adeccf5e0ef1b7b588d5a9b374efe680982c3418
@@ -54,7 +55,7 @@ while IFS= read -r f; do
       *"$h"*) echo "SECRET match (hash) in $f (token redacted)"; hits=1;;
     esac
   done <<TOKS
-$(LC_ALL=C grep -oE '[A-Za-z0-9]{9,}' "$f" 2>/dev/null | grep -E '[0-9]' | grep -iE '[a-z]' | sort -u)
+$(LC_ALL=C grep -oE '[A-Za-z0-9]{9,}' "$f" 2>/dev/null | grep -E '[0-9]' | grep -iE '[a-z]' | awk '{n=length($0)} n==9||n==16||n==32||n==64' | sort -u)
 TOKS
 done <<EOF
 $files
