@@ -5,11 +5,11 @@
 ![Price: Free](https://img.shields.io/badge/price-free-brightgreen)
 ![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey)
 
-**Bring your dead Sphero Spider-Man toy back to life.**
+**Bring your discontinued interactive superhero toy back to life.**
 
-I bought a Sphero Spider-Man years ago, played with it a bit, then it went in a closet. Then Sphero shut down the app and the servers, and just like that my toy was a paperweight. A couple months ago I pulled mine out and told myself I was going to revive it. Spoiler alert, it worked. So I built these apps so you can revive yours too.
+I bought this interactive superhero toy years ago, played with it a bit, then it went in a closet. Then its maker shut down the app and the servers, and just like that my toy was a paperweight. A couple months ago I pulled mine out and told myself I was going to revive it. Spoiler alert, it worked. So I built these apps so you can revive yours too.
 
-**Second Life Toys** is a pair of free apps that talk to the toy over Bluetooth, plus a small cloud I run to replace the servers Sphero took down. No account, no sign-in. It works, and it has already brought real toys back.
+**Second Life Toys** is a pair of free apps that talk to the toy over Bluetooth, plus a small cloud I run to replace the servers that were shut down. No account, no sign-in. It works, and it has already brought real toys back.
 
 <img src="docs/media/rescue-success.png" alt="The Second Life Toys app showing a revived toy: Your toy is back!" width="320">
 
@@ -19,7 +19,7 @@ I bought a Sphero Spider-Man years ago, played with it a bit, then it went in a 
 
 Signed APK. No account, no sign-in, no personal data. Free. Independent community project.
 
-**iOS (TestFlight):** invite-only right now. DM me on Reddit (r/Sphero) with the email on your Apple ID and I'll get you in.
+**iOS (TestFlight):** invite-only right now. DM me on Reddit with the email on your Apple ID and I'll get you in.
 
 New to sideloading, or want the step-by-step? See [Getting started](docs/getting-started.md).
 
@@ -51,7 +51,7 @@ Once the toy has its content on board, everything works over Bluetooth with no W
 
 **Not sure which situation you're in?** Press the chest button. If it plays a joke or a game, you used it before. If it just blinks and waits, it was never set up. I cover both in [Getting started](docs/getting-started.md).
 
-1. **Get the app.** Grab the [Android APK](https://github.com/second-life-toys/second-life-toys/releases) up top, or for iOS DM me on r/Sphero for a TestFlight invite. Details in [Getting started](docs/getting-started.md).
+1. **Get the app.** Grab the [Android APK](https://github.com/second-life-toys/second-life-toys/releases) up top, or for iOS DM me on Reddit for a TestFlight invite. Details in [Getting started](docs/getting-started.md).
 2. **Turn on Bluetooth** on your phone, and keep the toy right next to it.
 3. **Get the toy broadcasting.** If you *used it before*, do a [full reboot](docs/troubleshooting.md#full-reboot-to-get-a-bluetooth-window-case-a) and let the startup music finish. If you *never set it up*, it is already broadcasting.
 4. **Open the app and tap Rescue, then Scan.** The app finds the toy, figures out what state it is in, and runs the fixes it can do on its own. It only asks you for a Wi-Fi password or a hero name if the toy actually needs one.
@@ -79,7 +79,7 @@ This is a community project and I'd love the help. See [CONTRIBUTING.md](CONTRIB
 
 ## Disclaimer
 
-Second Life Toys is an independent community project. **It is not affiliated with, endorsed by, or sponsored by Marvel, Disney, or Sphero.** "Sphero" and "Spider-Man" are used only to describe which discontinued toy this project is compatible with. All trademarks belong to their respective owners.
+Second Life Toys is an independent community project. **It is not affiliated with, endorsed by, or sponsored by any toy manufacturer or brand.** Product names elsewhere in this repository are used only to identify compatibility. All trademarks belong to their respective owners.
 
 The full statement, along with a safety and "use at your own risk" note, is in [DISCLAIMER.md](DISCLAIMER.md).
 
