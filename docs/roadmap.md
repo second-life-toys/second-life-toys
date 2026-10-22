@@ -4,10 +4,10 @@ This is an honest snapshot of where Second Life Toys is and where it is headed. 
 
 ## Where we are today
 
-**Status: Android pre-alpha (sideload), iOS TestFlight (invite-only).**
+**Status: Android pre-alpha in a Google Play closed test, iOS public TestFlight beta.**
 
-- **iOS app** on Apple TestFlight (invite-only). This is our feature reference.
-- **Android app** distributed as a signed APK for direct install (sideload).
+- **iOS app** on Apple TestFlight (open public beta, anyone with the link can join). This is our feature reference.
+- **Android app** in a Google Play closed test (join the testers group, then opt in, then install from the Play Store).
 - **Replacement cloud service** standing in for the discontinued official servers, for the one-time content download a blank toy needs.
 - **Rescue flow** that diagnoses a stuck toy and walks it back to playable, plus dashboard, activities, guard mode, eyes, alarm, Wi-Fi setup, settings, and an on-device diagnostics log with Share Log.
 
@@ -23,8 +23,8 @@ The [recovery matrix](recovery-matrix.md) tracks exactly which toy states are pr
 
 ## Planned / in progress
 
-- **Android on Google Play (internal testing track).** Going through Google Play review. This will make Android installs a normal Play flow instead of a sideload.
-- **Public TestFlight and, eventually, App Store release** on iOS, once the beta is solid.
+- **Android on a public Google Play listing.** The app is in a Google Play closed test today; graduating to a public listing is the next step, which will make Android installs a normal Play Store install with no opt-in step.
+- **App Store release** on iOS, once the beta is solid.
 - **Broadening recovery coverage.** Confirming the fully-offline revive of a never-set-up toy end to end, nailing down factory-reset behavior, and validating self-heal for older stuck-in-setup toys. These are the open items in the [recovery matrix](recovery-matrix.md).
 - **More polish across both apps** as beta feedback comes in.
 - **Something more for these toys.** Reviving them is the first thing I'm shipping, not the last.

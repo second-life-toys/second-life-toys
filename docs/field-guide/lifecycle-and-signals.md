@@ -32,7 +32,7 @@ This is the single most important thing on the page, because it explains more "t
 
 The toy does not broadcast over Bluetooth all the time. It **advertises only for a short window**, then it goes quiet to save power. ("Advertising" and "broadcasting" are the same thing. The app pages call it broadcasting because it is friendlier, but under the hood it is Bluetooth advertising.) The window works like this:
 
-- After a **power-on or a chest press**, the toy advertises for about **30 seconds**, then stops.
+- After a **power-on**, the toy advertises for about **30 seconds** once the startup music ends, then stops.
 - It **also stops advertising when its screen sleeps**, even inside that window. So if the display dozes off, the call-out ends early.
 - A toy that **cold-boots into setup mode** is a bit different. It begins advertising roughly **1 to 4 minutes after boot** (it has housekeeping to do first), and then it **keeps advertising the whole time** it is online or working through setup. That is why a never-set-up toy is so easy for the app to find. It is basically waving the entire time.
 
@@ -40,7 +40,7 @@ So when a scan comes up empty, the toy is usually not broken and not out of rang
 
 ### The warm-wake trap
 
-This one cost me real time before I understood it, so I want to spell it out. If you take a used, already-set-up toy and give it a **warm wake** with a chest press, the toy will happily **speak its "grab your mobile device and download the app" prompt**, but it will **not start advertising over Bluetooth**. Nothing shows up in a scan. It looks completely broken.
+This one cost me real time before I understood it, so I want to spell it out. If you give a toy, set up or not, a **warm wake** with a chest press, the toy will happily **speak its "grab your mobile device and download the app" prompt**, but it will **not start advertising over Bluetooth**. Nothing shows up in a scan. It looks completely broken.
 
 It is not broken. This is normal behavior. The Bluetooth advertiser only comes up on a **cold boot**, and a warm wake skips that. So the fix is a full power-off-then-on, nothing drastic. And I want to be clear about what the fix is *not*: it is **not** a factory reset. A reset here would throw away your content and progress to solve a problem that a plain reboot solves in twenty seconds. Do the reboot.
 

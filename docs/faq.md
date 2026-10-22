@@ -30,19 +30,19 @@ Usually not. These toys carry their content internally, so most can be revived t
 
 ## Why isn't it on the App Store or Google Play yet?
 
-It is still early while we get it solid. On iOS we distribute through Apple's TestFlight (invite-only for now). On Android the app is pre-alpha, shared as a signed APK you install directly, and it is going through Google Play review right now. The plan is to graduate to public store releases; see the [roadmap](roadmap.md).
+It is still early while we get it solid. On iOS we distribute through Apple's TestFlight as an open public beta; an App Store release is in progress. On Android the app is pre-alpha and in a Google Play closed test. The plan is to graduate to public store releases; see the [roadmap](roadmap.md).
 
 ## How do I get in?
 
-For iOS, DM the maintainer on [r/Sphero](https://www.reddit.com/r/Sphero/) with the email on your Apple ID and you'll be added to the TestFlight group. For Android, install the provided APK. Full steps are in [Getting started](getting-started.md).
+For iOS, install the TestFlight app from the App Store, then open the [TestFlight beta](https://testflight.apple.com/join/GkAkHu1y) link on your iPhone or iPad and tap Accept, then Install. For Android, join the [testers group](https://groups.google.com/g/spidey-testers), then [opt in to the test](https://play.google.com/apps/testing/com.secondlifetoys.app), then install Second Life Toys from the Play Store. Skip the old APK on the GitHub releases page: it is an older build that is missing fixes. Full steps are in [Getting started](getting-started.md).
 
 ## My toy shows up as "ST..." in my phone's Bluetooth settings. Should I pair it there?
 
-No need. Let the app find and connect to it. Pairing it manually in the phone's Bluetooth settings is not how the toy is meant to connect, and the toy's broadcast window is short, so just wake the toy (press its chest button) and scan from inside the app.
+No need. Let the app find and connect to it. Pairing it manually in the phone's Bluetooth settings is not how the toy is meant to connect, and the toy's broadcast window is short, so just turn the toy fully off and on, then scan from inside the app.
 
 ## The app cannot find my toy. What is the single most likely cause?
 
-Either your phone's Bluetooth is not actually on, or the toy's short broadcast window (about 30 seconds after a button press or reboot) has already closed. Turn Bluetooth fully on, press the toy's chest button, and scan immediately. See [Troubleshooting](troubleshooting.md).
+Either your phone's Bluetooth is not actually on, or the toy's short broadcast window (about 30 seconds after a reboot, for a used toy) has already closed. Turn Bluetooth fully on, turn the toy fully off and on, then scan, tapping Scan again each time the search stops; a toy that was never set up can take up to about four minutes to appear. See [Troubleshooting](troubleshooting.md).
 
 ## My toy is completely dead (dark eyes, no response). Can you fix it?
 

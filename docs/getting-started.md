@@ -19,36 +19,34 @@ You do **not** need an account, a sign-in, or to give us any personal informatio
 There are two kinds, and they behave a little differently. To tell which one you have, **press the toy's chest button** and watch:
 
 - **If it plays a joke, tells a story, or starts a game, you used it before.** It still has everything on board. The catch: when you just turn it on, it does not call out over Bluetooth, so your phone cannot spot it yet. You will fix that with a quick full reboot (steps below).
-- **If it only blinks and waits, it was never set up.** It is already calling out over Bluetooth, so your phone can find it right away.
+- **If it only blinks and waits, it was never set up.** After a full power-off and on it calls out over Bluetooth on its own, starting 1 to 4 minutes after the startup music, so keep scanning.
 
-One word you will see a lot: **broadcasting.** For your phone to find the toy, the toy has to be *broadcasting* over Bluetooth, which just means calling out, like waving so the phone can spot it in a crowd. The toy only does this for about 30 seconds after you turn it on or press its chest, then it goes quiet again. If a scan finds nothing, that quiet window is usually why, and you just wake it up again.
+One word you will see a lot: **broadcasting.** For your phone to find the toy, the toy has to be *broadcasting* over Bluetooth, which just means calling out, like waving so the phone can spot it in a crowd. A used toy only does this for about 30 seconds after you turn it on (a toy that was never set up starts 1 to 4 minutes after power-on and keeps going), then it goes quiet again. If a scan finds nothing, that quiet window is usually why, and you power it fully off and on again; a chest press wakes it to talk but does not make it call out.
 
 ## Get the app
 
 ### iPhone or iPad (TestFlight)
 
-The iPhone version is invited by hand through Apple's official beta app, TestFlight. A real person adds you, so it can take a little while.
+The iPhone version is an open public beta through Apple's official beta app, TestFlight. Anyone with the link can join.
 
-1. **Ask for an invite on Reddit.** Send a private message (a "DM") to the maintainer on [r/Sphero](https://www.reddit.com/r/Sphero/). Sending a message needs a free Reddit account. In the message, include the email on your **Apple ID** (your App Store email), because that is where the invite is sent. If this iPad or iPhone is signed in with a parent's Apple ID, use the parent's email and have them accept the invite.
-2. **Wait for the email invitation** from TestFlight.
-3. **Install TestFlight** from the App Store, if you do not have it already.
-4. **Open the invitation, tap Accept,** then install Second Life Toys from inside TestFlight.
-5. TestFlight tells you when a newer version is ready. If the app ever stops opening after a few months, that just means the beta expired, so check TestFlight for an update.
+1. **Install TestFlight** from the App Store, if you do not have it already.
+2. **Open the beta link** on your iPhone or iPad: [testflight.apple.com/join/GkAkHu1y](https://testflight.apple.com/join/GkAkHu1y).
+3. **Tap Accept,** then **Install** to put Second Life Toys on your device. It works on iOS 16 or later.
+4. TestFlight tells you when a newer version is ready. If you already have the app, open TestFlight and tap **Update**. If the app ever stops opening after a few months, that just means the beta expired, so check TestFlight for an update.
 
-TestFlight is Apple's own beta system, so this is a normal, safe way to install.
+TestFlight is Apple's own beta system, so this is a normal, safe way to install. An App Store release is in progress; TestFlight is the way in today.
 
 ### Android (install the app)
 
-Second Life Toys for Android is very early and still being built, so it is not in the Google Play Store yet. You install it from our official page as an **APK** (that is just the file that installs an Android app, like a `.exe` on a computer). This is safe when you get the file from the link below.
+Second Life Toys for Android is in a Google Play test right now, so it takes two quick steps before you install it from the Play Store.
 
-1. **Open the Releases page** on your Android phone: [github.com/second-life-toys/second-life-toys/releases](https://github.com/second-life-toys/second-life-toys/releases). Under the newest release, tap the file whose name ends in **`.apk`** to download it.
-2. **When it finishes, tap the download.** Look for a "download complete" note in your notifications and tap it. If you miss it, open the **Files** app, go to **Downloads,** and tap the `.apk` file there.
-3. **Say yes to "install unknown apps."** Android may ask whether to allow installing apps from your browser or Files app. Tap to allow it. *This sounds scarier than it is.* It only means the app did not come from the Play Store, and you are turning it on for your browser this one time.
-4. **If Android warns it does not recognize the app's maker, that is expected** for any app not yet in the Play Store. Tap **More details,** then **Install anyway.**
-5. **Tap Install.** You will see a grey install screen, then "App installed" with an **Open** button.
-6. **Tap Open** to start Second Life Toys.
+1. **Join the testers group:** [groups.google.com/g/spidey-testers](https://groups.google.com/g/spidey-testers).
+2. **Opt in to the test:** [play.google.com/apps/testing/com.secondlifetoys.app](https://play.google.com/apps/testing/com.secondlifetoys.app).
+3. **Give it a few minutes, then install** (or update) Second Life Toys from the Play Store.
 
-Only ever install this app from the official Releases page above. Later updates from that same page will install right over the top. If an update ever refuses to install, that is Android saying the new file did not come from the same place as the app you already have, so delete the old app and reinstall from the official link.
+Use the same Google account on your phone that you used to join the group. It works on Android 8.0 or later. Opting in really helps: Google wants real testers on the app for about two weeks before it can become a normal public listing.
+
+Skip the old APK on the GitHub releases page: it is an older build that is missing fixes. If you already installed it, uninstall it first, then install from the Play Store.
 
 ## Revive your toy
 

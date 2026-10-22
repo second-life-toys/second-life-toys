@@ -1,6 +1,6 @@
 # Second Life Toys
 
-[![Status: Pre-alpha](https://img.shields.io/badge/status-pre--alpha-orange)](https://github.com/second-life-toys/second-life-toys/releases)
+[![Status: Pre-alpha](https://img.shields.io/badge/status-pre--alpha-orange)](docs/roadmap.md)
 [![Platforms: iOS & Android](https://img.shields.io/badge/platforms-iOS%20%26%20Android-blue)](docs/getting-started.md)
 ![Price: Free](https://img.shields.io/badge/price-free-brightgreen)
 ![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey)
@@ -15,13 +15,15 @@ I bought this interactive superhero toy years ago, played with it a bit, then it
 
 ## Get the app
 
-**Android (pre-alpha):** [Download the signed APK](https://github.com/second-life-toys/second-life-toys/releases/latest/download/second-life-toys.apk) from [GitHub Releases](https://github.com/second-life-toys/second-life-toys/releases), then sideload it. It's pre-alpha, so expect some rough edges, but it works. Google Play review is in progress.
+**Android (Google Play test):** it's in a Google Play closed test, so it takes two steps. First join the [testers group](https://groups.google.com/g/spidey-testers), then [opt in to the test](https://play.google.com/apps/testing/com.secondlifetoys.app). Give it a few minutes, then install (or update) Second Life Toys from the Play Store, using the same Google account you joined the group with. Android 8.0 or later. It's pre-alpha, so expect some rough edges, but it works.
 
-Signed APK. No account, no sign-in, no personal data. Free. Independent community project.
+Skip the old APK on the GitHub releases page: it is an older build that is missing fixes. If you already have it, uninstall it first, then install from Play.
 
-**iOS (TestFlight):** invite-only right now. DM me on Reddit with the email on your Apple ID and I'll get you in.
+No account, no sign-in, no personal data. Free. Independent community project.
 
-New to sideloading, or want the step-by-step? See [Getting started](docs/getting-started.md).
+**iOS (TestFlight):** open public beta. Install the TestFlight app from the App Store first, then open the [TestFlight beta](https://testflight.apple.com/join/GkAkHu1y) link on your iPhone or iPad and tap Accept, then Install. iOS 16 or later. An App Store release is in progress; TestFlight is the way in today.
+
+Want the step-by-step? See [Getting started](docs/getting-started.md).
 
 ---
 
@@ -51,7 +53,7 @@ Once the toy has its content on board, everything works over Bluetooth with no W
 
 **Not sure which situation you're in?** Press the chest button. If it plays a joke or a game, you used it before. If it just blinks and waits, it was never set up. I cover both in [Getting started](docs/getting-started.md).
 
-1. **Get the app.** Grab the [Android APK](https://github.com/second-life-toys/second-life-toys/releases) up top, or for iOS DM me on Reddit for a TestFlight invite. Details in [Getting started](docs/getting-started.md).
+1. **Get the app.** On Android, join the [testers group](https://groups.google.com/g/spidey-testers), then [opt in](https://play.google.com/apps/testing/com.secondlifetoys.app) and install from the Play Store; on iOS, join the [TestFlight beta](https://testflight.apple.com/join/GkAkHu1y). Details in [Getting started](docs/getting-started.md).
 2. **Turn on Bluetooth** on your phone, and keep the toy right next to it.
 3. **Get the toy broadcasting.** If you *used it before*, do a [full reboot](docs/troubleshooting.md#full-reboot-to-get-a-bluetooth-window-case-a) and let the startup music finish. If you *never set it up*, it is already broadcasting.
 4. **Open the app and tap Rescue, then Scan.** The app finds the toy, figures out what state it is in, and runs the fixes it can do on its own. It only asks you for a Wi-Fi password or a hero name if the toy actually needs one.

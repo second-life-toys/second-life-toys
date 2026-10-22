@@ -7,7 +7,7 @@ This is the plain-language version of "which toys can we bring back, and how sur
 Everything below falls under one of the two situations from [Getting started](getting-started.md#which-one-are-you):
 
 - **Path A: I used it before.** The toy has its content and plays on a chest press. It just needs a [full reboot](troubleshooting.md#full-reboot-to-get-a-bluetooth-window-case-a) to start broadcasting Bluetooth, then a rescue to clear whatever left it stuck. Covers states 2, 4, and 5 below.
-- **Path B: I never set it up** (new in box, or factory-reset to fresh). It boots into setup mode, blinks, and broadcasts Bluetooth on its own, so the app finds and rescues it directly. Setup-mode advertising times out, so if a scan finds nothing, press the chest button (or reboot) to reopen the window and scan immediately. Covers states 1 and 3 below.
+- **Path B: I never set it up** (new in box, or factory-reset to fresh). It boots into setup mode, blinks, and broadcasts Bluetooth on its own, so the app finds and rescues it directly. Setup-mode advertising times out, so if a scan finds nothing, keep scanning for up to about four minutes, tapping Scan again each time the search stops, then power it fully off and on and try once more. Covers states 1 and 3 below.
 
 ## How to read the status
 
