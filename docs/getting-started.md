@@ -75,9 +75,9 @@ This is the main event, one screen at a time. Follow it top to bottom.
 
 ![The Rescue connect screen with the Scan for my toy button](media/rescue-connect.png)
 
-**6. Your toy appears. Tap it.** It shows up as a name that starts with **`ST`** (for example `ST1e9fda`). Tap that name to connect.
+**6. Your toy appears. Tap it.** It shows up as a name that starts with **`ST`** (for example `STxxxxxx`, where the six characters after `ST` are unique to your toy). Tap that name to connect.
 
-![The toy listed as ST1e9fda in the scan results](media/rescue-found.png)
+![The toy listed by its ST name in the scan results](media/rescue-found.png)
 
 **7. It says "Toy linked." Tap START RESCUE.** A green check and "Toy linked" mean you are connected. Tap the red **START RESCUE** button.
 
