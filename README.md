@@ -17,7 +17,7 @@ I bought this interactive superhero toy years ago, played with it a bit, then it
 
 **Android (Google Play test):** it's in a Google Play closed test, so it takes two steps. First join the [testers group](https://groups.google.com/g/spidey-testers), then [opt in to the test](https://play.google.com/apps/testing/com.secondlifetoys.app). Give it a few minutes, then install (or update) Second Life Toys from the Play Store, using the same Google account you joined the group with. Android 8.0 or later. It's pre-alpha, so expect some rough edges, but it works.
 
-Skip the old APK on the GitHub releases page: it is an older build that is missing fixes. If you already have it, uninstall it first, then install from Play.
+There is no direct APK download. If you installed an old APK from GitHub, uninstall it first, then install from the Play Store.
 
 No account, no sign-in, no personal data. Free. Independent community project.
 

@@ -34,7 +34,7 @@ It is still early while we get it solid. On iOS we distribute through Apple's Te
 
 ## How do I get in?
 
-For iOS, install the TestFlight app from the App Store, then open the [TestFlight beta](https://testflight.apple.com/join/GkAkHu1y) link on your iPhone or iPad and tap Accept, then Install. For Android, join the [testers group](https://groups.google.com/g/spidey-testers), then [opt in to the test](https://play.google.com/apps/testing/com.secondlifetoys.app), then install Second Life Toys from the Play Store. Skip the old APK on the GitHub releases page: it is an older build that is missing fixes. Full steps are in [Getting started](getting-started.md).
+For iOS, install the TestFlight app from the App Store, then open the [TestFlight beta](https://testflight.apple.com/join/GkAkHu1y) link on your iPhone or iPad and tap Accept, then Install. For Android, join the [testers group](https://groups.google.com/g/spidey-testers), then [opt in to the test](https://play.google.com/apps/testing/com.secondlifetoys.app), then install Second Life Toys from the Play Store. There is no direct APK download; Play and TestFlight are the only ways in. Full steps are in [Getting started](getting-started.md).
 
 ## My toy shows up as "ST..." in my phone's Bluetooth settings. Should I pair it there?
 

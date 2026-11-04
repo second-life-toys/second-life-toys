@@ -1,31 +1,15 @@
 # Security
 
-You're about to sideload an APK from someone you don't know, so here is how to check it, what it can touch on your phone, and how to reach me privately if you find a problem.
+Here is where to get the app safely, what it can touch on your phone, and how to reach me privately if you find a problem.
 
-## Verifying your download
+## Where to get the app
 
-Every GitHub Release publishes two values you can check before you install:
+Only install Second Life Toys from these two places:
 
-- The **SHA-256 of the APK file** (published in the release notes).
-- The **APK signing-certificate SHA-256 fingerprint**, so you can confirm every build came from the same signing key.
+- **Android:** the Google Play closed test. Join the [testers group](https://groups.google.com/g/spidey-testers), [opt in to the test](https://play.google.com/apps/testing/com.secondlifetoys.app), then install from the Play Store. Google Play checks the app's signature for you.
+- **iPhone and iPad:** the [TestFlight beta](https://testflight.apple.com/join/GkAkHu1y). Apple signs and checks every TestFlight build.
 
-<!-- MAINTAINER: the APK SHA-256 changes every release, update it when you cut a new build. The signing-certificate fingerprint stays the same as long as the signing key does not change. -->
-- Release APK SHA-256 (v1.2.0): `3a42d05817e8c11a260151db26bb5cbf2ac6c8f05cb4323ed62ac4974ecbc39c`
-- Signing-certificate SHA-256: `9bf366314a916be0afd358aa2ff78cd2735ff5a4dcebdc842d0fbdc6ff37484b`
-
-Check the file hash:
-
-```
-shasum -a 256 second-life-toys.apk
-```
-
-Check the signing certificate:
-
-```
-apksigner verify --print-certs second-life-toys.apk
-```
-
-The certificate fingerprint should match the one above on every release. If it ever changes without an announcement, do not install it.
+There is no APK download on GitHub or anywhere else. If someone offers you a Second Life Toys APK or IPA file, do not install it. If you installed an old APK from GitHub, uninstall it and install from the Play Store instead.
 
 ## App permissions
 

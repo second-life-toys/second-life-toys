@@ -35,7 +35,7 @@ A clear description of the problem.
 
 - Phone model:
 - OS version (iOS or Android):
-- How you installed (iOS TestFlight / Android APK):
+- How you installed (iOS TestFlight / Android Google Play test):
 - App version:
 
 ## Diagnostic log

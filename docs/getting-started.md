@@ -46,7 +46,7 @@ Second Life Toys for Android is in a Google Play test right now, so it takes two
 
 Use the same Google account on your phone that you used to join the group. It works on Android 8.0 or later. Opting in really helps: Google wants real testers on the app for about two weeks before it can become a normal public listing.
 
-Skip the old APK on the GitHub releases page: it is an older build that is missing fixes. If you already installed it, uninstall it first, then install from the Play Store.
+There is no direct APK download. If you installed an old APK from GitHub, uninstall it first, then install from the Play Store.
 
 ## Revive your toy
 
